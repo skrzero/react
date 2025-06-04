@@ -5,10 +5,8 @@ function App() {
   
   return (
     <div>
-      <Custombutton
-      color={"red"}
-      data={"texte test"}
-      />
+      <Custombutton color="red" background="grey" text="hello"/>
+      <Custombutton color="purple" background="white" text="button toto"/>
       
     </div>
       

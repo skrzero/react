@@ -1,8 +1,11 @@
 function Custombutton(props){
 return(
-    <div>
-       <p> data: {props.color}</p>
-    </div>
+   <button style={{
+    color : props.color,
+    background : props.background,
+    margin:"10px",
+    borderRadius:"5px"
+   }}>{props.text}</button>
 )
 }
 export default Custombutton;
