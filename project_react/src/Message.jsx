@@ -13,3 +13,7 @@ function Message({text,type}){
     
 }
 export default Message;
+
+    // <Message type='alert' text="warning" />
+    // <Message type='info' text="information" />
+    // <Message type='success' text="reussi"/>
