@@ -1,11 +1,11 @@
 import './App.css'
-import Message from './Message';
+import InfosUtilisateur from './EtatComponant';
 
 
 function App() {
   return (
     <div>
-    
+    <InfosUtilisateur/>
     </div>      
   );
 }
