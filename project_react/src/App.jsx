@@ -1,11 +1,11 @@
 import './App.css'
-import InfosUtilisateur from './EtatComponant';
+import FormulaireMoney from './formulaireMoney';
 
 
 function App() {
   return (
     <div>
-    <InfosUtilisateur/>
+    <FormulaireMoney/>
     </div>      
   );
 }
